@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excite Energy | Engineered for California Sunshine</title>
+    <meta name="description" content="Excite Energy combines professional electrical engineering pedigree and licensed contractor expertise to install premium solar and battery systems across California.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Decorative Ambient Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="#" class="logo-link" id="nav-logo">
+                <img src="logo.webp" alt="Excite Energy Logo" class="header-logo">
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <div class="nav-item nav-item-dropdown">
+                    <span class="dropdown-toggle">
+                        Solar Solutions
+                        <svg class="dropdown-arrow" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                    </span>
+                    <div class="dropdown-menu">
+                        <a href="residential-solar.html" class="dropdown-item">Residential Solar</a>
+                        <a href="commercial-solar.html" class="dropdown-item">Commercial Solar</a>
+                        <a href="mounting-options.html" class="dropdown-item">Mounting Options</a>
+                    </div>
+                </div>
+                <a href="batteries.html" class="nav-item">Batteries & Storage</a>
+                <a href="title-24.html" class="nav-item">Title 24 Guide</a>
+                <a href="about.html" class="nav-item">About Us</a>
+                <a href="blog.html" class="nav-item">Blog</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+                <a href="tel:+19169148900" class="nav-item tel-link">
+                    <svg viewBox="0 0 24 24" class="tel-icon"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    (916) 914-8900
+                </a>
+            </nav>
+            <div class="header-actions">
+                <a href="get-estimate.html" class="cta-btn text-cta">Get an Estimate</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section reveal">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="badge">Professional Electrical Engineers | Lic 1018541</span>
+                <h1 class="hero-title">Engineered for<br><span class="accent-text">California Sunshine.</span></h1>
+                <p class="hero-description">
+                    Excite Energy brings elite electrical engineering pedigree and C-10 contractor expertise to residential and commercial solar installations. Over 1,000 completed projects since 2014, tailored for peak performance and compliance.
+                </p>
+                <div class="hero-actions">
+                    <a href="#funnel" class="btn btn-primary">Calculate Your Savings</a>
+                    <a href="#pedigree" class="btn btn-secondary">Meet Our Engineers</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual" id="hero-interactive-zone">
+                <div class="hero-3d-scene">
+                    <!-- Layer 1: Ambient Grid Backdrop -->
+                    <div class="scene-layer layer-grid" data-depth="0.1">
+                        <div class="tech-grid"></div>
+                    </div>
+                    <!-- Layer 2: Glowing Backdrop Accent -->
+                    <div class="scene-layer layer-glow-showcase" data-depth="0.3">
+                        <div class="showcase-glow"></div>
+                    </div>
+                    <!-- Layer 3: Premium Photo Showcase Card -->
+                    <div class="scene-layer layer-showcase" data-depth="0.6">
+                        <div class="showcase-card-wrapper">
+                            <img src="hero_showcase.webp" alt="Excite Energy California Solar Installation" class="showcase-img">
+                            <div class="glass-reflection"></div>
+                            <div class="showcase-tag">
+                                <span class="tag-dot"></span>
+                                Featured Project: El Dorado Hills, CA
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Award Highlight Banner -->
+    <section class="award-section-banner content-container reveal" style="margin-top: 40px; margin-bottom: 20px;">
+        <div class="award-glow-bg"></div>
+        <div class="award-banner-grid">
+            <div class="award-laurel-badge">
+                <svg class="laurel-svg" viewBox="0 0 100 100" fill="currentColor" style="width: 110px; height: 110px;">
+                    <path d="M30,80 C10,80 5,50 20,30 C25,25 35,30 35,30 C30,40 30,50 40,55 C40,55 45,45 45,45 C35,45 35,35 40,30 C40,30 50,35 50,35 C45,50 45,60 50,70 L50,85 C20,85 10,80 30,80 Z M70,80 C90,80 95,50 80,30 C75,25 65,30 65,30 C70,40 70,50 60,55 C60,55 55,45 55,45 C65,45 65,35 60,30 C60,30 50,35 50,35 C55,50 55,60 50,70 L50,85 C80,85 90,80 70,80 Z"/>
+                </svg>
+                <div class="award-year" style="font-size: 1.2rem; top: 48%;">2023</div>
+            </div>
+            <div>
+                <span class="badge">Panasonic Evervolt Award</span>
+                <h3 class="award-title-main" style="font-size: 1.6rem; margin-bottom: 8px;">Sacramento Valley Installer of the Year</h3>
+                <p class="award-details-text" style="font-size: 0.95rem;">
+                    Excite Energy is the winner of the prestigious <strong>Panasonic Customer Appreciation Award</strong> for Residential Solar Installer of the Year. Recognized for engineering integrity and outstanding customer satisfaction.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tier 1 Supply Chain Grid -->
+    <section id="partners" class="partners-section reveal" style="padding-top: 60px;">
+        <div class="section-header">
+            <span class="section-badge">Tier 1 Hardware</span>
+            <h2 class="section-title">Engineered with Premium Technology</h2>
+            <p class="section-subtitle">We partner exclusively with top-tier global manufacturers to deliver long-term reliability and unmatched system yields.</p>
+        </div>
+
+        <div class="partners-grid">
+            <!-- Card 1: Tesla -->
+            <div class="partner-card">
+                <div class="partner-card-glow"></div>
+                <div class="partner-card-inner">
+                    <div class="partner-logo">
+                        <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C11.39 3.56 10.15 5.56 8.35 7.15c-.24.21-.49.42-.76.62 1.34.39 2.7.53 4.41.53 1.71 0 3.07-.14 4.41-.53-.27-.2-.52-.41-.76-.62C13.85 5.56 12.61 3.56 12 2m9.47 5.86c-.57.34-1.22.62-1.92.83.67.7 1.25 1.5 1.74 2.37.14-.85.18-1.78.18-3.2m-18.94 0c0 1.42.04 2.35.18 3.2.49-.87 1.07-1.67 1.74-2.37-.7-.21-1.35-.49-1.92-.83M12 9.07c-2.4 0-4.66-.23-6.6-.66.27.43.58.84.92 1.22C8.07 9.87 10 10 12 10s3.93-.13 5.68-.37c.34-.38.65-.79.92-1.22-1.94.43-4.2.66-6.6.66m-7.79.88c-.14.73-.21 1.52-.21 2.38 0 3.32.96 5.86 2.87 7.62-.25-.97-.37-2.07-.37-3.29 0-2.39.49-4.71 1.32-6.72-.61.01-1.16-.01-1.61.01m15.58 0c-.45-.02-1-.01-1.61-.01.83 2.01 1.32 4.33 1.32 6.72 0 1.22-.12 2.32-.37 3.29 1.91-1.76 2.87-4.3 2.87-7.62 0-.86-.07-1.65-.21-2.38M12 11c-2.14 0-4.21-.18-6.03-.52.61 1.75 1.63 3.38 3.01 4.79.9-.96 1.83-2.09 3.02-3.39 1.19 1.3 2.12 2.43 3.02 3.39 1.38-1.41 2.4-3.04 3.01-4.79-1.82.34-3.89.52-6.03.52m0 1.4c-.65.73-1.22 1.34-1.7 1.84.5.39 1.07.61 1.7.61s1.2-.22 1.7-.61c-.48-.5-1.05-1.11-1.7-1.84M8.9 16.59c-.93-.97-1.65-2.07-2.13-3.26-.06.77-.08 1.6-.08 2.47 0 2.21.36 4.2 1.08 5.96.48-1.57.85-3.3 1.13-5.17M15.1 16.59c.28 1.87.65 3.6 1.13 5.17.72-1.76 1.08-3.75 1.08-5.96 0-.87-.02-1.7-.08-2.47-.48 1.19-1.2 2.29-2.13 3.26m-3.1 2.3c-.63.02-1.27.01-1.9.01.27 1.57.72 3.06 1.35 4.41C11.75 21.6 12 19.98 12 18.89m0 0c0 1.09.25 2.71.55 4.42.63-1.35 1.08-2.84 1.35-4.41-.63 0-1.27.01-1.9-.01z"/>
+                        </svg>
+                        <span class="brand-name">TESLA ENERGY</span>
+                    </div>
+                    <h3 class="partner-title">Tesla Powerwall 3</h3>
+                    <p class="partner-text">Next-gen backup optimization featuring an integrated solar inverter, unparalleled power delivery, and smart home load shedding capabilities.</p>
+                    <div class="tech-spec-badge">Whole-Home Backup Optimization</div>
+                </div>
+            </div>
+
+            <!-- Card 2: SunPower -->
+            <div class="partner-card">
+                <div class="partner-card-glow"></div>
+                <div class="partner-card-inner">
+                    <div class="partner-logo">
+                        <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 1.62-.51 3.12-1.38 4.39z"/>
+                        </svg>
+                        <span class="brand-name">SUNPOWER MAXEON</span>
+                    </div>
+                    <h3 class="partner-title">Maxeon Premium Panels</h3>
+                    <p class="partner-text">The world's most efficient residential solar panels, featuring a solid copper foundation that prevents micro-cracks and power loss over time.</p>
+                    <div class="tech-spec-badge">Up to 22.8% Conversion Efficiency</div>
+                </div>
+            </div>
+
+            <!-- Card 3: Enphase -->
+            <div class="partner-card">
+                <div class="partner-card-glow"></div>
+                <div class="partner-card-inner">
+                    <div class="partner-logo">
+                        <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-4 6h-2v2h2v2h-2v2h2v2h-6v-8h6v2z"/>
+                        </svg>
+                        <span class="brand-name">ENPHASE ENERGY</span>
+                    </div>
+                    <h3 class="partner-title">IQ8 Series Microinverters</h3>
+                    <p class="partner-text">Panel-level power conversion that keeps the rest of your system producing energy even if one panel is shaded, with built-in grid-independent backup capability.</p>
+                    <div class="tech-spec-badge">Panel-Level Inverter Optimization</div>
+                </div>
+            </div>
+
+            <!-- Card 4: Panasonic -->
+            <div class="partner-card">
+                <div class="partner-card-glow"></div>
+                <div class="partner-card-inner">
+                    <div class="partner-logo">
+                        <svg class="brand-logo-svg" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                        </svg>
+                        <span class="brand-name">PANASONIC SOLAR</span>
+                    </div>
+                    <h3 class="partner-title">EverVolt Modules</h3>
+                    <p class="partner-text">Exceptional performance in extreme heat conditions, carrying one of the industry's lowest temperature coefficients and a comprehensive 25-year warranty.</p>
+                    <div class="tech-spec-badge">Lowest Heat Degradation Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quotes / Testimonials Section -->
+    <section id="quotes" class="quotes-section reveal">
+        <div class="section-header">
+            <span class="section-badge">Client Testimonials</span>
+            <h2 class="section-title">What Our Customers Say</h2>
+            <p class="section-subtitle">Excite Energy is committed to absolute engineering compliance and top-tier customer service across Northern California.</p>
+        </div>
+
+        <div class="quotes-grid">
+            <!-- Review 1 -->
+            <div class="quote-card">
+                <div class="quote-stars">★★★★★</div>
+                <p class="quote-text">"Excellent customer service! We have 100% satisfaction of the job completed and the services we received from the owner, to installers, project manager, and office staff. It's been over a year since install and we are very happy. Top notch company and services!!"</p>
+                <div class="quote-author">
+                    <div class="author-name">Sarah & David R.</div>
+                    <div class="author-location">El Dorado Hills, CA | Homeowners</div>
+                </div>
+            </div>
+
+            <!-- Review 2 -->
+            <div class="quote-card">
+                <div class="quote-stars">★★★★★</div>
+                <p class="quote-text">"As an electrical contractor myself, I was impressed by their engineering precision. Heath and Vince didn't cut any corners on the interlock design and Title 24 compliance. They are the only solar installers I would trust."</p>
+                <div class="quote-author">
+                    <div class="author-name">Marcus T.</div>
+                    <div class="author-location">Sacramento, CA | Electrical Contractor</div>
+                </div>
+            </div>
+
+            <!-- Review 3 -->
+            <div class="quote-card">
+                <div class="quote-stars">★★★★★</div>
+                <p class="quote-text">"Excite Energy designed our commercial microgrid array. Our monthly demand charges dropped by 82% from day one. Their engineering pedigree is obvious in the layout and system performance."</p>
+                <div class="quote-author">
+                    <div class="author-name">David L.</div>
+                    <div class="author-location">Roseville, CA | Logistics Center Director</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Lead Funnel -->
+    <section id="funnel" class="funnel-section reveal">
+        <div class="funnel-container">
+            <div class="funnel-header">
+                <span class="section-badge">Savings Calculator</span>
+                <h2 class="section-title">Calculate Your Clean Energy Future</h2>
+                <p class="section-subtitle">Find out how engineering-focused solar design translates directly into monthly utility bill savings.</p>
+            </div>
+
+            <!-- Glassmorphic Funnel Box -->
+            <div class="funnel-card">
+                <!-- Funnel Progress Area -->
+                <div class="funnel-progress-container">
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-bar"></div>
+                    </div>
+                    <div class="progress-steps">
+                        <div class="step-indicator active" data-step="1">
+                            <div class="indicator-dot">1</div>
+                            <span class="indicator-label">Property</span>
+                        </div>
+                        <div class="step-indicator" data-step="2">
+                            <div class="indicator-dot">2</div>
+                            <span class="indicator-label">Utility Bill</span>
+                        </div>
+                        <div class="step-indicator" data-step="3">
+                            <div class="indicator-dot">3</div>
+                            <span class="indicator-label">Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Funnel Form -->
+                <form id="lead-form" class="funnel-form" novalidate>
+                    
+                    <!-- STEP 1: Property Type -->
+                    <div class="funnel-step active" id="step-1" data-step="1">
+                        <h3 class="step-title">Select Your Property Type</h3>
+                        <p class="step-desc">Solar and batteries are engineered differently for residential homes versus commercial spaces.</p>
+                        
+                        <div class="property-options">
+                            <button type="button" class="property-btn" data-value="Residential">
+                                <div class="btn-icon">
+                                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+                                </div>
+                                <span class="btn-label">Residential</span>
+                                <span class="btn-subtext">Single Family / Townhome</span>
+                            </button>
+                            
+                            <button type="button" class="property-btn" data-value="Commercial">
+                                <div class="btn-icon">
+                                    <svg viewBox="0 0 24 24"><path fill="currentColor" d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>
+                                </div>
+                                <span class="btn-label">Commercial</span>
+                                <span class="btn-subtext">Business / Office / Industrial</span>
+                            </button>
+                        </div>
+                        
+                        <input type="hidden" name="property_type" id="property-type-input" value="">
+                        <span class="error-msg" id="property-error">Please select a property type to proceed.</span>
+
+                        <div class="step-navigation">
+                            <div></div> <!-- Spacer -->
+                            <button type="button" class="btn btn-primary next-step-btn" disabled>Continue <span class="arrow">&rarr;</span></button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 2: Utility Bill Sliding Scale -->
+                    <div class="funnel-step" id="step-2" data-step="2">
+                        <h3 class="step-title">Average Monthly Utility Bill</h3>
+                        <p class="step-desc">Drag the slider to select your current average monthly electricity costs.</p>
+                        
+                        <div class="slider-container">
+                            <div class="bill-display">
+                                <span class="currency">$</span>
+                                <span class="bill-value" id="bill-val">350</span>
+                            </div>
+                            
+                            <input type="range" class="bill-slider" id="bill-slider" min="50" max="1000" step="25" value="350" aria-label="Monthly utility bill slider">
+                            
+                            <div class="slider-labels">
+                                <span>$50</span>
+                                <span>$500</span>
+                                <span>$1,000+</span>
+                            </div>
+                        </div>
+
+                        <!-- Real-time savings projections calculated from slider -->
+                        <div class="savings-cards">
+                            <div class="savings-card">
+                                <span class="card-glow-bg"></span>
+                                <span class="savings-label">Estimated Monthly Savings</span>
+                                <span class="savings-amount" id="savings-monthly">$0</span>
+                                <span class="savings-subtext">Offsetting ~90% utility bills</span>
+                            </div>
+                            <div class="savings-card highlight-card">
+                                <span class="card-glow-bg"></span>
+                                <span class="savings-label">Estimated 25-Year Savings</span>
+                                <span class="savings-amount" id="savings-yearly">$0</span>
+                                <span class="savings-subtext">Factoring in CA utility price inflation</span>
+                            </div>
+                        </div>
+
+                        <div class="step-navigation">
+                            <button type="button" class="btn btn-secondary prev-step-btn">&larr; Back</button>
+                            <button type="button" class="btn btn-primary next-step-btn">Continue &rarr;</button>
+                        </div>
+                    </div>
+
+                    <!-- STEP 3: Contact Details -->
+                    <div class="funnel-step" id="step-3" data-step="3">
+                        <h3 class="step-title">Review & Generate Your Proposal</h3>
+                        <p class="step-desc">Provide your contact details so our registered engineers can run a satellite design review for your roof.</p>
+                        
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="form-name">Full Name</label>
+                                <input type="text" id="form-name" placeholder="John Doe" required>
+                                <span class="input-error">Name is required.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-email">Email Address</label>
+                                <input type="email" id="form-email" placeholder="john@example.com" required>
+                                <span class="input-error">Please enter a valid email address.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-phone">Phone Number</label>
+                                <input type="tel" id="form-phone" placeholder="(916) 555-0199" required>
+                                <span class="input-error">Please enter a valid phone number.</span>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="form-address">Installation Address</label>
+                                <input type="text" id="form-address" placeholder="El Dorado Hills, CA" required>
+                                <span class="input-error">Address is required.</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="form-agreement" required>
+                            <label for="form-agreement">I consent to Excite Energy contacting me about solar, battery storage, and energy options. Read our <a href="https://www.exciteenergy.com/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a>.</label>
+                            <span class="input-error">You must accept the privacy policy.</span>
+                        </div>
+
+                        <div class="step-navigation">
+                            <button type="button" class="btn btn-secondary prev-step-btn">&larr; Back</button>
+                            <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                                <span>Get Free Solar Estimate</span>
+                                <div class="btn-loader"></div>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- SUCCESS STATE -->
+                    <div class="funnel-step success-state" id="step-success">
+                        <div class="success-icon-wrapper">
+                            <svg viewBox="0 0 24 24" class="success-svg"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M22 11.08V12a10 10 0 1 1-5.93-9.14M22 4L12 14.01l-3-3"/></svg>
+                        </div>
+                        <h3 class="step-title">Estimate Request Submitted!</h3>
+                        <p class="step-desc">
+                            Thank you, <strong id="success-username">John</strong>. Our engineering leads, Heath Kirin and Vince Bowles, will perform a satellite engineering assessment on <strong id="success-address">your property</strong>.
+                        </p>
+                        <div class="success-details">
+                            <div class="detail-item">
+                                <span class="detail-label">Project Type:</span>
+                                <span class="detail-val" id="success-prop-type">Residential</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Monthly Bill:</span>
+                                <span class="detail-val" id="success-bill">$350</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="detail-label">Estimated Savings:</span>
+                                <span class="detail-val text-neon" id="success-savings">$65,000+</span>
+                            </div>
+                        </div>
+                        <p class="success-cta-text">One of our electrical engineering reps will call you at <strong id="success-phone">(916) 555-0199</strong> shortly.</p>
+                        <button type="button" class="btn btn-secondary reset-btn" id="reset-funnel-btn">Start Over</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engineering Pedigree Section -->
+    <section id="pedigree" class="pedigree-section reveal">
+        <div class="pedigree-intro">
+            <div class="pedigree-badge">Licensed Contractors & Engineers</div>
+            <h2 class="pedigree-title">Solar Built by Real Electrical Engineers.</h2>
+            <p class="pedigree-lead">Unlike marketing companies or sales networks, Excite Energy is owned and operated by licensed electrical engineers who design every system for maximum safety, yield, and longevity.</p>
+        </div>
+        
+        <div class="pedigree-grid">
+            <div class="pedigree-left">
+                <!-- Team Image Card -->
+                <div class="team-photo-card">
+                    <img src="we_are_solar.webp" alt="Excite Energy Team - We Are Solar" class="team-photo-img">
+                    <div class="team-photo-overlay">
+                        <span class="team-photo-caption">The Excite Energy Team — Dedicated to Excellence</span>
+                    </div>
+                </div>
+                
+                <p class="pedigree-body">We hold a C-10 Electrical Contractor License (Lic 1018541) and our leadership represents decades of professional engineering work. We analyze local grid interconnections, voltage drop requirements, and panel dynamics to build systems that stand the test of time.</p>
+                
+                <div class="credentials-badges">
+                    <div class="cred-badge">
+                        <span class="cred-title">License 1018541</span>
+                        <span class="cred-desc">C-10 Electrical Contractor</span>
+                    </div>
+                    <div class="cred-badge">
+                        <span class="cred-title">NABCEP Certified</span>
+                        <span class="cred-desc">Solar PV Professionals</span>
+                    </div>
+                    <div class="cred-badge">
+                        <span class="cred-title">Licensed P.E.</span>
+                        <span class="cred-desc">Professional Engineering</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pedigree-right">
+                <h3 class="team-heading">Our Engineering Leadership</h3>
+                
+                <div class="team-member-card">
+                    <div class="member-info">
+                        <div class="member-header">
+                            <h4 class="member-name">Heath Kirin</h4>
+                            <span class="member-role">Managing Partner</span>
+                        </div>
+                        <p class="member-credentials">B.S. Electrical Engineering | Registered E.I. | NABCEP Certification</p>
+                        <p class="member-bio">Heath oversees system configurations, component modeling, and equipment verification to ensure all Excite Energy projects operate at peak efficiency.</p>
+                    </div>
+                </div>
+
+                <div class="team-member-card">
+                    <div class="member-info">
+                        <div class="member-header">
+                            <h4 class="member-name">Vince Bowles</h4>
+                            <span class="member-role">Managing Partner</span>
+                        </div>
+                        <p class="member-credentials">B.S. Electrical Engineering | Licensed Professional Engineer (P.E.) | US Army Veteran</p>
+                        <p class="member-bio">Vince ensures rigorous engineering quality controls, structural compliance, Title 24 alignments, and safety interlocks for all grid connections.</p>
+                    </div>
+                </div>
+
+                <div class="engineering-stats">
+                    <div class="stat-box">
+                        <span class="stat-number">1,000+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">2014</span>
+                        <span class="stat-label">Founded in California</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Satisfaction Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- From Our Blog Section -->
+    <section id="blog" class="blog-section reveal">
+        <div class="section-header">
+            <span class="section-badge">Latest Insights</span>
+            <h2 class="section-title">From Our Solar Blog</h2>
+            <p class="section-subtitle">Read technical reviews and financial updates curated directly by our registered electrical engineers.</p>
+        </div>
+
+        <div class="blog-grid">
+            <!-- Blog Card 1 -->
+            <div class="blog-card">
+                <div class="blog-image-wrapper">
+                    <img src="blog_ppa.webp" alt="Power Purchase Agreements" class="blog-img">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">February 3, 2025</span>
+                    <h3 class="blog-card-title">What is a Power Purchase Agreement (PPA)?</h3>
+                    <p class="blog-summary">An in-depth look at how PPAs compare to direct purchasing and loan models for commercial and residential installations.</p>
+                    <a href="blog_ppa.html" class="blog-read-more">Read Article &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Blog Card 2 -->
+            <div class="blog-card">
+                <div class="blog-image-wrapper">
+                    <img src="blog_finance.webp" alt="Solar Financing Options" class="blog-img">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">January 5, 2025</span>
+                    <h3 class="blog-card-title">Powering Your Home: Financing Options</h3>
+                    <p class="blog-summary">Demystifying capital expenses, residential loans, property tax assessments, and battery storage incentives in CA.</p>
+                    <a href="blog_finance.html" class="blog-read-more">Read Article &rarr;</a>
+                </div>
+            </div>
+
+            <!-- Blog Card 3 -->
+            <div class="blog-card">
+                <div class="blog-image-wrapper">
+                    <img src="blog_cooling.webp" alt="Keeping Home Cool in Summer" class="blog-img">
+                </div>
+                <div class="blog-content">
+                    <span class="blog-date">August 7, 2024</span>
+                    <h3 class="blog-card-title">Keeping Your Home Cool This Summer</h3>
+                    <p class="blog-summary">How combining whole house ventilation fans and solar arrays dramatically offsets air conditioning demand spikes.</p>
+                    <a href="blog_cooling.html" class="blog-read-more">Read Article &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-logo-col">
+                <img src="logo.webp" alt="Excite Energy Logo" class="footer-logo">
+                <p class="footer-tagline">Excite Energy, your trusted California solar installer and professional electrical contractor.</p>
+                <p class="license-info">California Licensed Professional Engineering | C-10 Contractor | Lic 1018541</p>
+                
+                <!-- Social Links Grid (Opens in new tab) -->
+                <div class="social-links">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/exciteenergy/" target="_blank" rel="noopener" class="social-icon" aria-label="Facebook">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/exciteenergy/" target="_blank" rel="noopener" class="social-icon" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+                    </a>
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/company/excite-energy/" target="_blank" rel="noopener" class="social-icon" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.779-1.75-1.75s.784-1.75 1.75-1.75 1.75.779 1.75 1.75-.784 1.75-1.75 1.75zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <!-- Twitter -->
+                    <a href="https://twitter.com/exciteenergy" target="_blank" rel="noopener" class="social-icon" aria-label="Twitter">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-links-col">
+                <h5 class="footer-heading">Services</h5>
+                <ul class="footer-links">
+                    <li><a href="residential-solar.html">Residential Solar</a></li>
+                    <li><a href="commercial-solar.html">Commercial Solar</a></li>
+                    <li><a href="batteries.html">Battery Systems</a></li>
+                    <li><a href="residential-solar.html#ev-chargers">EV Chargers</a></li>
+                    <li><a href="residential-solar.html#upgrades">Solar System Upgrades</a></li>
+                    <li><a href="residential-solar.html#house-fans">Whole House Fans</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h5 class="footer-heading">Company</h5>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Excite Energy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://www.exciteenergy.com/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-col">
+                <h5 class="footer-heading">Office</h5>
+                <p class="office-address">
+                    <a href="https://maps.google.com/?q=5174+Hillsdale+Circle,+El+Dorado+Hills,+CA+95762" target="_blank" rel="noopener" class="map-link">
+                        5174 Hillsdale Circle,<br>
+                        El Dorado Hills, CA 95762
+                    </a>
+                </p>
+                <a href="tel:+19169148900" class="footer-phone">(916) 914-8900</a>
+                <a href="mailto:info@exciteenergy.com" class="footer-email">info@exciteenergy.com</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copy-text">&copy; 2026 Excite Energy. All rights reserved. Built with precision engineering.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
