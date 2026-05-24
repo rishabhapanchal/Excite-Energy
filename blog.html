@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energy Blog | Excite Energy</title>
+    <meta name="description" content="Stay informed with Excite Energy's blog. Expert articles covering solar PPAs, solar financing models, and cooling efficiency tips for California homeowners.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Decorative Ambient Glows -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo-link">
+                <img src="logo.webp" alt="Excite Energy Logo" class="header-logo">
+            </a>
+            <nav class="nav-menu" id="nav-menu">
+                <a href="index.html" class="nav-item">Home</a>
+                <div class="nav-item nav-item-dropdown">
+                    <span class="dropdown-toggle">
+                        Solar Solutions
+                        <svg class="dropdown-arrow" viewBox="0 0 24 24"><path d="M7 10l5 5 5-5z"/></svg>
+                    </span>
+                    <div class="dropdown-menu">
+                        <a href="residential-solar.html" class="dropdown-item">Residential Solar</a>
+                        <a href="commercial-solar.html" class="dropdown-item">Commercial Solar</a>
+                        <a href="mounting-options.html" class="dropdown-item">Mounting Options</a>
+                    </div>
+                </div>
+                <a href="batteries.html" class="nav-item">Batteries & Storage</a>
+                <a href="title-24.html" class="nav-item">Title 24 Guide</a>
+                <a href="about.html" class="nav-item">About Us</a>
+                <a href="blog.html" class="nav-item">Blog</a>
+                <a href="contact.html" class="nav-item">Contact</a>
+                <a href="tel:+19169148900" class="nav-item tel-link">
+                    <svg viewBox="0 0 24 24" class="tel-icon"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+                    (916) 914-8900
+                </a>
+            </nav>
+            <div class="header-actions">
+                <a href="get-estimate.html" class="cta-btn text-cta">Get an Estimate</a>
+                <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Subpage Hero -->
+    <section class="subpage-hero">
+        <div class="subpage-hero-container">
+            <span class="badge">Insights & Education</span>
+            <h1 class="subpage-title">Energy Blog</h1>
+            <p class="subpage-desc">Stay informed with technical analyses, guides on utility structures, and solar financing breakdowns.</p>
+        </div>
+    </section>
+
+    <!-- Subpage Content -->
+    <main class="subpage-content">
+        <div class="content-container">
+            
+            <!-- Category Filter buttons -->
+            <div class="blog-filters-container">
+                <button class="filter-button-styled active" data-filter="all">All Articles</button>
+                <button class="filter-button-styled" data-filter="ppa">Solar PPA</button>
+                <button class="filter-button-styled" data-filter="financing">Financing Options</button>
+                <button class="filter-button-styled" data-filter="efficiency">Home Efficiency</button>
+            </div>
+
+            <!-- Blog Grid -->
+            <div class="blog-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; margin-bottom: 60px;">
+                
+                <!-- Blog Card 1 -->
+                <div class="blog-card" data-category="ppa" style="display: flex; flex-direction: column; background: var(--color-bg-card); border: 1px solid var(--color-glass-border); border-radius: 16px; overflow: hidden; transition: all var(--transition-smooth); height: 100%;">
+                    <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--color-glass-border);">
+                        <img src="blog_ppa.webp" alt="Power Purchase Agreement Diagram" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--color-neon-bright); font-weight: 600; text-transform: uppercase; margin-bottom: 8px;">Solar PPA</div>
+                            <h3 style="font-family: var(--font-title); font-size: 1.25rem; font-weight: 600; margin-bottom: 12px; line-height: 1.3;"><a href="blog_ppa.html" style="color:var(--color-text-primary); transition:color 0.2s;">What is a Power Purchase Agreement (PPA)?</a></h3>
+                            <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.5; margin-bottom: 20px;">Understanding how Solar PPAs work, their benefits, and whether they make sense for your residential property under NEM 3.0 rules.</p>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px; font-size: 0.8rem; color: var(--color-text-dim);">
+                            <span>Feb 3, 2025</span>
+                            <span>5 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 2 -->
+                <div class="blog-card" data-category="financing" style="display: flex; flex-direction: column; background: var(--color-bg-card); border: 1px solid var(--color-glass-border); border-radius: 16px; overflow: hidden; transition: all var(--transition-smooth); height: 100%;">
+                    <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--color-glass-border);">
+                        <img src="blog_finance.webp" alt="Solar Financing Options" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--color-neon-bright); font-weight: 600; text-transform: uppercase; margin-bottom: 8px;">Financing Options</div>
+                            <h3 style="font-family: var(--font-title); font-size: 1.25rem; font-weight: 600; margin-bottom: 12px; line-height: 1.3;"><a href="blog_finance.html" style="color:var(--color-text-primary); transition:color 0.2s;">Powering Your Home: Exploring Solar Financing</a></h3>
+                            <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.5; margin-bottom: 20px;">A detailed analysis of California home solar financing methods: cash buying, solar loans, capital leases, and PPAs.</p>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px; font-size: 0.8rem; color: var(--color-text-dim);">
+                            <span>Jan 5, 2025</span>
+                            <span>7 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Card 3 -->
+                <div class="blog-card" data-category="efficiency" style="display: flex; flex-direction: column; background: var(--color-bg-card); border: 1px solid var(--color-glass-border); border-radius: 16px; overflow: hidden; transition: all var(--transition-smooth); height: 100%;">
+                    <div style="height: 200px; overflow: hidden; border-bottom: 1px solid var(--color-glass-border);">
+                        <img src="blog_cooling.webp" alt="Whole House Fan Ventilation" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px; display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
+                        <div>
+                            <div style="font-size: 0.8rem; color: var(--color-neon-bright); font-weight: 600; text-transform: uppercase; margin-bottom: 8px;">Home Efficiency</div>
+                            <h3 style="font-family: var(--font-title); font-size: 1.25rem; font-weight: 600; margin-bottom: 12px; line-height: 1.3;"><a href="blog_cooling.html" style="color:var(--color-text-primary); transition:color 0.2s;">Keeping Your Home Cool This Summer</a></h3>
+                            <p style="font-size: 0.9rem; color: var(--color-text-secondary); line-height: 1.5; margin-bottom: 20px;">Economical and earth-friendly ventilation solutions, including the installation of energy-efficient whole house fans.</p>
+                        </div>
+                        <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px; font-size: 0.8rem; color: var(--color-text-dim);">
+                            <span>Aug 7, 2024</span>
+                            <span>4 min read</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-logo-col">
+                <img src="logo.webp" alt="Excite Energy Logo" class="footer-logo">
+                <p class="footer-tagline">Excite Energy, your trusted California solar installer and professional electrical contractor.</p>
+                <p class="license-info">California Licensed Professional Engineering | C-10 Contractor | Lic 1018541</p>
+            </div>
+            
+            <div class="footer-links-col">
+                <h5 class="footer-heading">Services</h5>
+                <ul class="footer-links">
+                    <li><a href="residential-solar.html">Residential Solar</a></li>
+                    <li><a href="commercial-solar.html">Commercial Solar</a></li>
+                    <li><a href="batteries.html">Battery Systems</a></li>
+                    <li><a href="residential-solar.html#ev-chargers">EV Chargers</a></li>
+                    <li><a href="residential-solar.html#upgrades">Solar System Upgrades</a></li>
+                    <li><a href="residential-solar.html#house-fans">Whole House Fans</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h5 class="footer-heading">Company</h5>
+                <ul class="footer-links">
+                    <li><a href="about.html">About Excite Energy</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="certifications.html">Certifications</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="https://www.exciteenergy.com/privacy-policy" target="_blank" rel="noopener">Privacy Policy</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact-col">
+                <h5 class="footer-heading">Office</h5>
+                <p class="office-address">
+                    <a href="https://maps.google.com/?q=5174+Hillsdale+Circle,+El+Dorado+Hills,+CA+95762" target="_blank" rel="noopener" class="map-link">
+                        5174 Hillsdale Circle,<br>
+                        El Dorado Hills, CA 95762
+                    </a>
+                </p>
+                <a href="tel:+19169148900" class="footer-phone">(916) 914-8900</a>
+                <a href="mailto:info@exciteenergy.com" class="footer-email">info@exciteenergy.com</a>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copy-text">&copy; 2026 Excite Energy. All rights reserved. Built with precision engineering.</p>
+        </div>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="app.js"></script>
+</body>
+</html>
